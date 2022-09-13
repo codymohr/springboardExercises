@@ -1,0 +1,10 @@
+const PI = 3.14;
+PI = 42; // Error!
+
+you can reassign and redeclare a var, but not redeclare a let. Let is block scope
+
+you can reassign and redeclare a var, and can do neither with a const. Const is block scope
+
+you can reassign a let, but not a const
+
+Variables are hoisted to the top of the scope in which they're declared. Function declarations can be invoked before they are defined in a codebase
